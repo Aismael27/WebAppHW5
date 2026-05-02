@@ -1,0 +1,24 @@
+/* [project]/app/components/AddTaskInput.css [app-client] (css) */
+.add-task {
+  gap: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.add-task__input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+  padding: 10px;
+}
+
+.add-task__btn {
+  background-color: var(--color-blue-btn);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+/*# sourceMappingURL=app_components_AddTaskInput_css_0w3-wzy._.single.css.map*/

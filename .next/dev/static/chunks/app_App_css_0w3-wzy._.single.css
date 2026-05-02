@@ -1,0 +1,26 @@
+/* [project]/app/App.css [app-client] (css) */
+.app-wrapper {
+  background-color: var(--color-bg-dark);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+}
+
+.app-card {
+  background-color: var(--color-white);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 860px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px #0006;
+}
+
+.app-body {
+  background-color: var(--color-white);
+  padding: 32px 48px 40px;
+}
+
+/*# sourceMappingURL=app_App_css_0w3-wzy._.single.css.map*/

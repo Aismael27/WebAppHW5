@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/components/TaskList.css"],"sourcesContent":[".task-list {\n    background-color: var(--color-list-bg);\n    border-radius: 20px;\n    padding: 10px 24px 16px;\n  }\n  \n  .task-list__items {\n  }\n  \n  .task-list__empty {\n    text-align: center;\n    color: var(--color-text-muted);\n    padding: 30px 0;\n    font-size: 0.95rem;\n  }\n  \n  .task-list__footer {\n    display: flex;\n    justify-content: flex-end;\n    padding-top: 12px;\n  }\n  \n  .task-list__clear {\n    background: none;\n    border: none;\n    color: var(--color-orange);\n    font-family: var(--font-main);\n    font-size: 0.95rem;\n    font-weight: 600;\n    cursor: pointer;\n    opacity: 0.9;\n  }\n  \n  .task-list__clear:hover {\n    opacity: 0.9;\n  }"],"names":[],"mappings":"AAAA;;;;;;AASE;;;;;;;AAOA;;;;;;AAMA;;;;;;;;;;;AAWA"}}]
+}

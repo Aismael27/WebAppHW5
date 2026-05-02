@@ -1,0 +1,36 @@
+.task-list {
+    background-color: var(--color-list-bg);
+    border-radius: 20px;
+    padding: 10px 24px 16px;
+  }
+  
+  .task-list__items {
+  }
+  
+  .task-list__empty {
+    text-align: center;
+    color: var(--color-text-muted);
+    padding: 30px 0;
+    font-size: 0.95rem;
+  }
+  
+  .task-list__footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 12px;
+  }
+  
+  .task-list__clear {
+    background: none;
+    border: none;
+    color: var(--color-orange);
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  
+  .task-list__clear:hover {
+    opacity: 0.9;
+  }

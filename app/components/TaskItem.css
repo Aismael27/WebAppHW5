@@ -1,0 +1,63 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--color-teal-divider);
+  }
+  
+  .task-item:last-of-type {
+    border-bottom: none;
+  }
+  
+  .task-item__checkbox {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--color-orange);
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-orange);
+    padding: 0;
+  }
+  
+  .task-item__checkbox svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .task-item__checkbox--checked {
+    background-color: transparent;
+  }
+  
+  .task-item__text {
+    flex: 1;
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-text-dark);
+  }
+  
+  .task-item--completed .task-item__text {
+    color: var(--color-text-completed);
+    text-decoration: line-through;
+  }
+  
+  .task-item__delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-orange);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+  }
+  
+  .task-item__delete:hover {
+    opacity: 0.8; 
+  }

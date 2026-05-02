@@ -1,0 +1,43 @@
+/* [project]/app/components/Header.css [app-client] (css) */
+.header {
+  background-color: var(--color-header-bg);
+  text-align: center;
+  padding: 28px 0 24px;
+}
+
+.logo {
+  letter-spacing: 4px;
+  align-items: center;
+  gap: 0;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1;
+  display: inline-flex;
+}
+
+.logo-to {
+  color: var(--color-text-muted);
+  font-weight: 300;
+}
+
+.logo-do, .logo-check {
+  color: var(--color-orange);
+  font-weight: 300;
+}
+
+.logo-icon {
+  border: 3px solid var(--color-orange);
+  width: 52px;
+  height: 52px;
+  color: var(--color-orange);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1;
+  display: inline-flex;
+}
+
+/*# sourceMappingURL=app_components_Header_css_0w3-wzy._.single.css.map*/

@@ -1,0 +1,36 @@
+/* [project]/app/components/TaskList.css [app-client] (css) */
+.task-list {
+  background-color: var(--color-list-bg);
+  border-radius: 20px;
+  padding: 10px 24px 16px;
+}
+
+.task-list__empty {
+  text-align: center;
+  color: var(--color-text-muted);
+  padding: 30px 0;
+  font-size: .95rem;
+}
+
+.task-list__footer {
+  justify-content: flex-end;
+  padding-top: 12px;
+  display: flex;
+}
+
+.task-list__clear {
+  color: var(--color-orange);
+  font-family: var(--font-main);
+  cursor: pointer;
+  opacity: .9;
+  background: none;
+  border: none;
+  font-size: .95rem;
+  font-weight: 600;
+}
+
+.task-list__clear:hover {
+  opacity: .9;
+}
+
+/*# sourceMappingURL=app_components_TaskList_css_0w3-wzy._.single.css.map*/

@@ -1,0 +1,40 @@
+/* [project]/app/components/TabBar.css [app-client] (css) */
+.tab-bar {
+  background-color: var(--color-tab-bar);
+  border-bottom: 1px solid #d0cac2;
+  display: flex;
+}
+
+.tab {
+  font-family: var(--font-main);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  background: none;
+  border: none;
+  flex: 1;
+  padding: 18px 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.tab--active {
+  color: var(--color-text-dark);
+}
+
+.tab--active:after {
+  content: "";
+  background-color: var(--color-orange);
+  border-radius: 2px 2px 0 0;
+  height: 3px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+}
+
+.tab:hover:not(.tab--active) {
+  color: var(--color-text-dark);
+}
+
+/*# sourceMappingURL=app_components_TabBar_css_0w3-wzy._.single.css.map*/

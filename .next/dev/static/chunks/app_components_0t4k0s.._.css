@@ -1,0 +1,205 @@
+/* [project]/app/components/Header.css [app-client] (css) */
+.header {
+  background-color: var(--color-header-bg);
+  text-align: center;
+  padding: 28px 0 24px;
+}
+
+.logo {
+  letter-spacing: 4px;
+  align-items: center;
+  gap: 0;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1;
+  display: inline-flex;
+}
+
+.logo-to {
+  color: var(--color-text-muted);
+  font-weight: 300;
+}
+
+.logo-do, .logo-check {
+  color: var(--color-orange);
+  font-weight: 300;
+}
+
+.logo-icon {
+  border: 3px solid var(--color-orange);
+  width: 52px;
+  height: 52px;
+  color: var(--color-orange);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1;
+  display: inline-flex;
+}
+
+/* [project]/app/components/TabBar.css [app-client] (css) */
+.tab-bar {
+  background-color: var(--color-tab-bar);
+  border-bottom: 1px solid #d0cac2;
+  display: flex;
+}
+
+.tab {
+  font-family: var(--font-main);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  background: none;
+  border: none;
+  flex: 1;
+  padding: 18px 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.tab--active {
+  color: var(--color-text-dark);
+}
+
+.tab--active:after {
+  content: "";
+  background-color: var(--color-orange);
+  border-radius: 2px 2px 0 0;
+  height: 3px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+}
+
+.tab:hover:not(.tab--active) {
+  color: var(--color-text-dark);
+}
+
+/* [project]/app/components/AddTaskInput.css [app-client] (css) */
+.add-task {
+  gap: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.add-task__input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+  padding: 10px;
+}
+
+.add-task__btn {
+  background-color: var(--color-blue-btn);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+/* [project]/app/components/TaskItem.css [app-client] (css) */
+.task-item {
+  border-bottom: 1px solid var(--color-teal-divider);
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  display: flex;
+}
+
+.task-item:last-of-type {
+  border-bottom: none;
+}
+
+.task-item__checkbox {
+  border: 2px solid var(--color-orange);
+  cursor: pointer;
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  color: var(--color-orange);
+  background: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  display: flex;
+}
+
+.task-item__checkbox svg {
+  width: 16px;
+  height: 16px;
+}
+
+.task-item__checkbox--checked {
+  background-color: #0000;
+}
+
+.task-item__text {
+  font-family: var(--font-main);
+  color: var(--color-text-dark);
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.task-item--completed .task-item__text {
+  color: var(--color-text-completed);
+  text-decoration: line-through;
+}
+
+.task-item__delete {
+  cursor: pointer;
+  color: var(--color-orange);
+  opacity: .8;
+  background: none;
+  border: none;
+  align-items: center;
+  padding: 4px;
+  display: flex;
+}
+
+.task-item__delete:hover {
+  opacity: .8;
+}
+
+/* [project]/app/components/TaskList.css [app-client] (css) */
+.task-list {
+  background-color: var(--color-list-bg);
+  border-radius: 20px;
+  padding: 10px 24px 16px;
+}
+
+.task-list__empty {
+  text-align: center;
+  color: var(--color-text-muted);
+  padding: 30px 0;
+  font-size: .95rem;
+}
+
+.task-list__footer {
+  justify-content: flex-end;
+  padding-top: 12px;
+  display: flex;
+}
+
+.task-list__clear {
+  color: var(--color-orange);
+  font-family: var(--font-main);
+  cursor: pointer;
+  opacity: .9;
+  background: none;
+  border: none;
+  font-size: .95rem;
+  font-weight: 600;
+}
+
+.task-list__clear:hover {
+  opacity: .9;
+}
+
+/*# sourceMappingURL=app_components_0t4k0s.._.css.map*/
